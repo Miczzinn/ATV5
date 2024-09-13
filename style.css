@@ -1,0 +1,82 @@
+body{
+    background-color: #37e2dc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: auto;
+    height: 25px;
+    font-size: 1.5em;
+} 
+
+#menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#menu a:active{
+    color: blue;
+}
+
+#cab{
+    h1{
+        color: black;
+        background-color: aliceblue;
+        border-radius: 15px;
+        height: 40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#livro2, #livro4 {
+    p{
+        font-size: 1.2em;
+        padding-left: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+#livro1, #livro3, #livro5 {
+    p{
+        font-size: 1.2em;
+        padding-right: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+#rodape{
+    background-color: white;
+    border-radius: 15px;
+    h1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+#up img{
+    position: fixed; 
+    width: 30px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+}
